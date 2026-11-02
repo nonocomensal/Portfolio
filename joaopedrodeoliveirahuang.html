@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Pedro de Oliveira Huang | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Logo-Model.png">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#sobre">About</a>
+            <a href="#projetos">Projects</a>
+            <a href="#contato">Contact</a>
+        </nav>
+
+        <div class="hero">
+            <h1>João Pedro de Oliveira Huang</h1>
+            <h2>Computer Engineering @ UTFPR</h2>
+            
+            <div class="skills-tags">
+                <span class="tag">C / C++ (OOP)</span>
+                <span class="tag">Algorithms & Competitive Programming</span>
+                <span class="tag">Digital Systems & VHDL</span>
+                <span class="tag">Python</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="card">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <img src="20250415_170413.jpg" alt="João Pedro" class="profile-img">
+                <p>
+                    Graduando em Engenharia da Computação na UTFPR, focado no desenvolvimento de sistemas, 
+                    programação competitiva, arquitetura orientada a objetos e sistemas digitais.
+                </p>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <h3>Platform SFML Game</h3>
+                    <p>Jogo de plataforma desenvolvido em C++ utilizando POO e renderização gráfica com SFML & Qt.</p>
+                    <div class="carousel-container" data-current="0">
+                        <button class="carousel-btn prev-btn" onclick="mudarSlide(this, -1)">&#10094;</button>
+        
+                         <div class="carousel-track-container">
+
+                            <img src="fase2jogo.png" alt="Fase 2 Jogo" class="carousel-img active">
+                            <img src="fase1jogo.png" alt="Fase 1 Jogo" class="carousel-img">
+                            <img src="menujogo.png" alt="Menu do Jogo" class="carousel-img">
+                            <img src="UMLjogo.jpeg" alt="UML Final do Jogo" class="carousel-img">
+                        </div>
+        
+                        <button class="carousel-btn next-btn" onclick="mudarSlide(this, 1)">&#10095;</button>
+                    </div>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>SFML</span>
+                        <span>OOP</span>
+                        <span>SWE</span>
+                    </div>
+
+                    <a href="https://github.com/Chan2007/Jogo" target="_blank" class="github-icon">
+                        <img src="github-icon.png" alt="GitHub">
+                    </a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Interactive Casino</h3>
+                    <p>Aplicação multi-jogos desenvolvida em C++ utilizando POO e renderização gráfica com SFML.</p>
+                    <div class="carousel-container" data-current="0">
+                        <button class="carousel-btn prev-btn" onclick="mudarSlide(this, -1)">&#10094;</button>
+        
+                         <div class="carousel-track-container">
+
+                            <img src="Main.jpeg" alt="Diagrama UML do Casino" class="carousel-img active">
+                            <img src="menu.png" alt="Menu Principal do Jogo" class="carousel-img">
+                            <img src="roleta.png" alt="Tela de Caça-Níquel" class="carousel-img">
+                            <img src="blackjack.png" alt="Tela de blackjack" class="carousel-img">
+                        </div>
+        
+                        <button class="carousel-btn next-btn" onclick="mudarSlide(this, 1)">&#10095;</button>
+                    </div>
+                    <div class="project-tags">
+                        <span>C++</span>
+                        <span>SFML</span>
+                        <span>OOP</span>
+                    </div>
+
+                    <a href="https://github.com/nonocomensal/Cassino" target="_blank" class="github-icon">
+                        <img src="github-icon.png" alt="GitHub">
+                    </a>
+                </div>
+
+                <div class="project-card">
+                 <h3>DGT Electronic Chessboard</h3>
+                 <p>Tabuleiro eletrônico de xadrez integrado para leitura de jogadas em tempo real.</p>
+    
+                    <div class="carousel-container" data-current="0">
+                     <button class="carousel-btn prev-btn" onclick="mudarSlide(this, -1)">&#10094;</button>
+        
+                        <div class="carousel-track-container">
+                            <img src="tabuleirodgt.jpg" alt="Foto do Tabuleiro DGT Caseiro" class="carousel-img active">
+                            <img src="interiortabuleiro.png" alt="Detalhe do circuito/montagem do tabuleiro" class="carousel-img">
+                            <img src="processotabuleiro.png" alt="Processo do projeto do tabuleiro" class="carousel-img">
+                            <img src="tabuleirogantt.png" alt="Diagrama de Gantt" class="carousel-img">
+                        </div>
+        
+                        <button class="carousel-btn next-btn" onclick="mudarSlide(this, 1)">&#10095;</button>
+                    </div>
+
+                    <div class="project-tags">
+                        <span>Hardware</span>
+                        <span>Embedded</span>
+                    </div>
+                    <a href="https://www.youtube.com/watch?v=GDCTjFXb9vk" target="_blank" class="github-icon">
+                        <img src="youtube-icon.png" alt="GitHub">
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer id="contato">
+    <h2>Contact & Socials</h2>
+    <div class="social-links">
+        <a href="mailto:joaopedroohuang@gmail.com" class="social-item">
+            <img src="gmail-icon.png" alt="Gmail">
+            <span>joaopedroohuang@gmail.com</span>
+        </a>
+
+        <a href="https://www.linkedin.com/in/joão-pedro-de-oliveira-huang/" target="_blank" class="social-item">
+            <img src="linkedin-icon.png" alt="LinkedIn">
+        </a>
+    </div>
+</footer>
+
+    <script>
+    function mudarSlide(button, direction) {
+
+        const container = button.closest('.carousel-container');
+        const images = container.querySelectorAll('.carousel-img');
+        let currentIndex = parseInt(container.getAttribute('data-current')) || 0;
+
+        images[currentIndex].classList.remove('active');
+
+        currentIndex += direction;
+
+        if (currentIndex < 0) {
+            currentIndex = images.length - 1;
+        } else if (currentIndex >= images.length) {
+            currentIndex = 0;
+        }
+
+        container.setAttribute('data-current', currentIndex);
+        images[currentIndex].classList.add('active');
+    }
+    </script>
+
+</body>
+</html>
